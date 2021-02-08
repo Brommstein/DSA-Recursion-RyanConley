@@ -9,11 +9,13 @@ Output:
 2: Another sheep jumps over the fence
 1: Another sheep jumps over the fence
 All sheep jumped over the fence
+
 2. Power Calculator
 Write a function called powerCalculator() that takes two parameters, an integer as a base, and another integer as an exponent. The function returns the value of the base raised to the power of the exponent. Use only exponents greater than or equal to 0 (positive numbers)
 
 powerCalculator(10,2) should return 100
 powerCalculator(10,-2) should return exponent should be >= 0
+
 3. Reverse String
 Write a function that reverses a string. Take a string as input, reverse the string, and return the new string.
 
@@ -25,11 +27,13 @@ Calculate the nth triangular number. A triangular number counts the objects that
 *     |   *   *  |   *    *    *  |
 
  1st       2nd           3rd             nth?  
+
 5. String Splitter
 Write a recursive function that splits a string based on a separator (similar to String.prototype.split). Don't use JS array's split function to solve this problem.
 
 Input: 02/20/2020
 Output: ["02", "20", "2020"]
+
 6. Fibonacci
 Write a recursive function that prints the Fibonacci sequence of a given number. The Fibonacci sequence is a series of numbers in which each number is the sum of the 2 preceding numbers. For example, the 7th Fibonacci number in a Fibonacci sequence is 13. The sequence looks as follows: 1, 1, 2, 3, 5, 8, 13.
 
@@ -66,6 +70,7 @@ Notice that this maze has 3 exits paths. Your recursive function should print al
 Path to the exit: RRDDLLDDRRRRRR
 Path to the exit: RRDDRRUURRDDDD
 Path to the exit: RRDDRRRRDD
+
 10. Anagrams
 An anagram is any word or phrase that uses the letters of a given ("subject") word or phrase in another, rearranged order. Write a function that creates an anagram list, listing all the rearrangements of a given word. For example, if the user types "east", the program should list all 24 permutations, including "eats", "etas", "teas", and non-words like "tsae".
 
@@ -110,5 +115,6 @@ Zuckerberg
             Eric
             Ana
             Wes
+            
 12. Binary Representation
 Write a recursive function that prints out the binary representation of a given number. For example, the program should take 3 as an input and print 11 as output, or 25 as an input and print 11001 as an output. Note that the binary representation of 0 should be 0.

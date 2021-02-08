@@ -127,8 +127,8 @@ function mazeEscape(maze, x = 0, y = 0, solution = '') {
 function fullMazeEscape(maze, x = 0, y = 0, solution = '', traveled = []) {
   //Checks if your on final position && creates traveled array
   if (maze[y][x] === 'e') {
-      if(solution)
-    console.log(`Path to the exit: ${solution}`);
+    if(solution)
+      console.log(`Path to the exit: ${solution}`);
     traveled.push(solution);
   }
   //Starts movement
